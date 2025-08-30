@@ -9,8 +9,8 @@
     {
       "name": "default",
       "generator": "Ninja Multi-Config",
-      "binaryDir": "${sourceDir}/out/build",
-      "installDir": "${sourceDir}/out/install",
+      "binaryDir": "${sourceDir}/out/${presetName}/build",
+      "installDir": "${sourceDir}/out/${presetName}/install",
       "hidden": true,
       "cacheVariables": {
         // C++ language
